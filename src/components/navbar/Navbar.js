@@ -83,7 +83,11 @@ const Navbar = () => {
                     <FaTwitter />
                   </span>
                   <span className="bannerIcon">
+                    <a href='https://www.linkedin.com/in/clentan-chauke-1a7b08216/'>
                     <FaLinkedinIn />
+
+                    </a>
+                 
                   </span>
                 </div>
               </div>
