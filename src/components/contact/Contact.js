@@ -53,6 +53,10 @@ const Contact = () => {
     }
   };
 
+  const handleNavigation = (url) => {
+    window.open(url, '_blank', 'noopener noreferrer');
+};
+
   return (
     <section
       id="contact"

@@ -106,19 +106,19 @@ const Achievement = () => {
               title={achievement.title}
               result={achievement.result}
               des={achievement.des}
-              handleDelete={() => handleDeleteAchievement(achievement.id)}
-              handleEdit={() => handleEditAchievement(achievement.id)} // Pass edit handler
+              // handleDelete={() => handleDeleteAchievement(achievement.id)}
+              // handleEdit={() => handleEditAchievement(achievement.id)}
             />
           ))}
         </div>
       </div>
-      {/* <motion.div
+       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         className="w-full md:w-1/2"
-      > */}
-        {/* <h3 className="text-2xl font-bold mb-4">{editingId ? "Edit Achievement" : "Add New Achievement"}</h3> */}
+      > 
+         {/* <h3 className="text-2xl font-bold mb-4">{editingId ? "Edit Achievement" : "Add New Achievement"}</h3>  */}
         {/* <div className="flex flex-col space-y-2">
           <input
             type="text"
@@ -149,9 +149,9 @@ const Achievement = () => {
             className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 active:bg-blue-800 transition duration-200"
           >
             {editingId ? "Update Achievement" : "Add Achievement"}
-          </button>
-        </div> */}
-      {/* </motion.div> */}
+          </button> */}
+        {/* </div> * */}
+      </motion.div>
     </motion.div>
   );
 };
